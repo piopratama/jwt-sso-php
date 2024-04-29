@@ -1,0 +1,57 @@
+# Composer dependencies
+/vendor/
+
+# Configuration files that contain sensitive information
+.env
+
+# PHP server files
+php_errors.log
+
+# Common backup files
+*.bak
+*.swp
+*.back
+
+# OS generated files to ignore
+.DS_Store
+Thumbs.db
+
+# Node modules if you use Node.js in your project
+/node_modules/
+
+# Temporary files
+/tmp/
+/temp/
+
+# IDE specific files
+/.idea/
+/.vscode/
+
+# Caching directories and files
+/cache/
+*.cache
+*.blade.php.cache
+*.twig.cache
+
+# Logs
+/logs/
+*.log
+
+# PHPUnit
+/phpunit.xml
+/vendor/bin/phpunit
+/phpunit-watcher.yml
+
+# Exported databases
+*.sql
+*.dump
+
+# Compiled Static Assets
+/public/assets/
+/public/mix-manifest.json
+/build/
+
+# Security certificates
+/*.pem
+/*.crt
+/*.key
